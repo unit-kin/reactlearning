@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import fetchTasks from './api'
 
 export const TodoApp = () => {
@@ -53,6 +54,8 @@ export const TodoApp = () => {
                     Add Task
                 </button>
             </form>
+
+            <Link to='/forms'>Forms</Link>
 
         </div>
     )
