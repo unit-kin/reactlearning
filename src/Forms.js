@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 // understanding how form validation works 
 const Forms = () => {
     const [text, setText] = useState("")
@@ -25,7 +26,7 @@ const Forms = () => {
                 <button>Submit</button>
             </form>
             {text}
-
+            <Link to='/counter'>Counter</Link>
         </div>
     )
 }
