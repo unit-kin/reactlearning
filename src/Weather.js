@@ -13,7 +13,7 @@ const Weather = () => {
 
     const getWeather = () => {
         // Replace YOUR_API_KEY with your actual OpenWeatherMap API key
-        const apiKey = '4229bcee1f0a5052aac6376c5aabfa06';
+        const apiKey = '';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
         fetch(apiUrl)
