@@ -24,6 +24,7 @@ const Counter = () => {
             <button onClick={handleDecrement}>-</button>
 
             <Link to="/forms">Form</Link>
+            <Link to='/weather'>Weather</Link>
         </div>
     );
 };

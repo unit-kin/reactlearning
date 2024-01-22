@@ -5,7 +5,8 @@ import Home from './Home'
 import Statem from './Statem';
 import Toggle from './Toggle';
 import Forms from './Forms';
-import Counter from './Counter'
+import Counter from './Counter';
+import Weather from './Weather';
 import { TodoApp } from './TodoApp';
 import { Route, Routes, } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/TodoApp" element={<TodoApp />} />
       <Route path="/forms" element={<Forms />} />
       <Route path='/counter' element={<Counter />} />
+      <Route path='/weather' element={<Weather />} />
     </Routes>
   )
 }
