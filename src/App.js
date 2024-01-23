@@ -10,6 +10,7 @@ import Weather from './Weather';
 import Fruits from './Fruits';
 import { TodoApp } from './TodoApp';
 import { Route, Routes, } from 'react-router-dom';
+import MyProvider from './MyProvider';
 
 function App() {
   const fruits = {
@@ -29,6 +30,9 @@ function App() {
         <Route path='/weather' element={<Weather />} />
       </Routes>
       <Fruits fruits={fruits} />
+      <MyProvider />
+
+
     </>
 
   )
